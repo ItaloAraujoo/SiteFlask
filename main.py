@@ -8,7 +8,7 @@ lista_usuarios = ['Italo', 'Amanda', 'Gabriel', 'Alessandra']
 
 # segurança dos formulários do site
 app.config['SECRET_KEY'] = '9c0710c20aaaaa8adb5eec94652d8c0c'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqLite:///projetoflask.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///projetoflask.db'
 
 database = SQLAlchemy(app)
 
